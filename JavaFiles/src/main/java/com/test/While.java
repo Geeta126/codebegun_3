@@ -1,0 +1,32 @@
+package com.test;
+
+public class While {
+
+	public static void main(String[] args) {
+		 int n= 10,i=2,j,count;
+		    while(i<=n) {
+		    	count=0;
+				for(j=1;j<=i;j++) {
+					if(i%j==0) {
+						count++;
+					}
+		        }
+				if (count==2) {
+				System.out.println(i);
+				}		
+	           i++;
+		    }    
+		    int k=5;
+			   do{
+			      System.out.print(k);
+				k++;
+				}
+			   while(k<=10);
+			}		    
+	   
+}
+	 
+
+
+
+

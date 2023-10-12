@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+C:\Users\mgopi\OneDrive\Documents\JavaPractices\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3180357563.index
+213704908.index
+2196792437.index
+2485144064.index
+3983034758.index
+1520010914.index
+2920966152.index

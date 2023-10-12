@@ -1,0 +1,9 @@
+package com.test.Abstract;
+
+public abstract class AbstractClass {
+//	public static void main(String[] args) {
+		abstract void add();
+		
+	}
+
+

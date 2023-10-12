@@ -1,0 +1,13 @@
+package jdbcPractice;
+
+public class JdbcConnectionList {
+	String userTypeId;
+	String userType;
+	boolean activestatus;
+	String createdDate;
+	String createduser;
+	String updatedDate;
+	String updateduser;
+	
+
+}

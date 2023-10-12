@@ -1,0 +1,77 @@
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class Collections {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List list=new ArrayList();
+		int a=6;
+		
+		list.add(17);
+		list.add(a);
+		list.add("hii");
+		list.add(123456789);
+		list.add('G');
+		System.out.println("List ::"+ list);
+		System.out.println(list.get(3));
+		
+//		Set treeset=new TreeSet();
+////		int n=5;
+//		
+//		treeset.add("hii");
+//		treeset.add("geeta");
+////		treeset.add(76);
+////		treeset.add('M');
+////		treeset.add(n);
+//		System.out.println("Set ::"+ treeset);
+//		
+//		Set hashset=new HashSet();
+//		int x=66;
+//		
+//		hashset.add(90);
+//		hashset.add("geeta");
+//		hashset.add(987655676l);
+//		hashset.add('P');
+//		hashset.add("good");
+//		hashset.add(x);
+//		System.out.println("Set ::"+ hashset);
+//		
+//		Map<String,String> map=new HashMap<String,String>();
+//		
+//		map.put("gud","mrng");
+//		map.put("equal","34567");
+//		map.put("you","me");
+//		System.out.println("Map ::"+ map);
+//		
+//		Map map1=new HashMap();
+//		
+//		map1.put(6578,"out");
+//		map1.put("happy","journey");
+//		map1.put(45, 76);
+//		System.out.println("Map ::"+ map1);
+//		
+////		Map<Map<String,String>> map2=new HashMap();
+//				
+//				
+////Map <Map<Integer,String>> hashmap2 =new HashMap();
+////		hashmap2.put(487,"gud");
+////		
+////		System.out.println("Map ::"+hashmap2);
+////		
+//		
+//		
+		
+		
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,59 @@
+
+public class Example {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		int i,count=0;
+//		int[] x= {17,19,21};
+//		for(i=0;i<x.length;i++) {
+//			if(x[i]%2==0) {
+//				count=count+1;
+//			}else if((x[i]%2 !=0)&& (x[i]!=5)) {
+//				count=count+3;
+//			}else {
+//				count=count+5;
+//			}
+//			
+//		}
+////		System.out.println(count);	
+//		String str="triveni";
+//		String str1=new String("triveni");
+//		if(str==str1) {
+//			System.out.println(true);
+//		}
+//		System.out.println("string equals operator::"+(str==str1));
+//		System.out.println("String equals method:: " + (str.equals(str1)));
+//
+//		import java.util.*;  
+//		public class Example{  
+//		public static void main(String args[]){  
+//		Stack<String> stack = new Stack<String>();  
+//		stack.push("Ayush");  
+//		stack.push("Garvit");  
+//		stack.push("Amit");  
+//		stack.push("Ashish");  
+//		stack.push("Garima");  
+//		stack.pop();  
+//		Iterator<String> itr=stack.iterator();  
+//		while(itr.hasNext()){  
+//		System.out.println(itr.next());  
+//		}  
+////		}  
+//		String a="tri";
+//		String b="veni";
+//		System.out.println(a+" "+b);
+		int a=10;
+		if(a%2==0) {
+			
+			System.out.println("even number");
+		}else {
+			System.out.println("odd");
+		}
+		
+
+	}
+		
+
+}
+
+

@@ -1,0 +1,11 @@
+package Test;
+
+public class Permutations {
+	int a=30;
+	int b=20;
+	public static void main(String[] args) {
+		
+	}
+	
+
+}

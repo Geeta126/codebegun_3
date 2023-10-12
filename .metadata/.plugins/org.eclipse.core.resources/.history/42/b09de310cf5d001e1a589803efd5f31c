@@ -1,0 +1,14 @@
+import java.util.Set;
+import java.util.TreeSet;
+
+public class Setting {
+public static void main(String[] args) {
+	Set set=new TreeSet();
+	set.add(654);
+	set.add("geeta");
+	set.add(897654);
+	set.add('T');
+	System.out.println("set elements ::"+set);
+			
+}
+}

@@ -1,0 +1,55 @@
+package jdbcPractice;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
+
+public class JdbcConnectionExample {
+
+	public static void main(String[] args) throws SQLException{
+		
+		Connection connection=null;
+		Statement statement=null;
+		ResultSet resultSet=null;
+		String databaseURL="jdbc:mysql://192.168.0.131:3306/codebegun_triveni";
+		String userName="root";
+		String password="root";
+		String query="select * from codebegun_triveni.user_info";
+		
+//		JdbcConnectionList jdbcConnectionlist=new JdbcConnectionList();
+//		jdbcConnectionlist.setActivestatus(resultSet.getBoolean("activestatus"));
+//		jdbcConnectionlist.setCreatedDate(resultSet.getDate("createdDate"));
+//		jdbcConnectionlist.setCreateduser(resultSet.getString("createduser"));
+//		jdbcConnectionlist.setUpdatedDate(resultSet.getDate("updatedDate"));
+//		jdbcConnectionlist.setUpdateduser(resultSet.getString("updateduser"));
+//		
+//		List<JdbcConnectionList> list=new ArrayList<>();
+		
+		try {
+			connection=DriverManager.getConnection(databaseURL,userName,password);
+			statement=connection.createStatement();
+			resultSet=statement.executeQuery(query);
+			
+			while(resultSet.next()) {
+				System.out.println(resultSet.getString("userTypeId"));
+				System.out.println(resultSet.getString("userId"));
+				System.out.println(resultSet.getString("activestatus"));
+				System.out.println(resultSet.getString("createdDate"));
+				System.out.println(resultSet.getString("updatedDate"));
+				System.out.println(resultSet.getString("createduser"));
+				System.out.println(resultSet.getString("updatesuser"));
+				System.out.println("=====================");
+				}
+		}finally{
+			connection.close();
+			statement.close();
+			resultSet.close();
+		}
+
+	}
+
+}

@@ -1,0 +1,26 @@
+package Test;
+
+import java.util.Scanner;
+
+public class Permutations {
+  static int a;
+	static int b;
+	static int temp;
+
+	public static void main(String[] args) {
+		 
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the value of a ::");
+		 int input=sc.nextInt();
+		 
+		 System.out.println("Enter the value of b ::");
+		 int input1=sc.nextInt();
+		 
+	 
+		 int a= b;
+		 int b=temp;
+		System.out.println("permutations");	
+	 
+
+}
+}

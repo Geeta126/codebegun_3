@@ -1,0 +1,17 @@
+package JavaPrograms;
+
+public class AddTwoNumbers {
+// static int a=10,
+//            b=90;
+//    public static void main(String[] args) {
+//    	System.out.println(a+b);
+//    }
+    
+    addition add=new addition();
+    int a=45, b=65;
+    System.out.println(a,b);
+    
+    }
+    
+    
+

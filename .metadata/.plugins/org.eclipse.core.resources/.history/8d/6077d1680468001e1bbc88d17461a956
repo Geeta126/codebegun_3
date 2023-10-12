@@ -1,0 +1,44 @@
+package jdbcPractice;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class JdbcConnectionExample {
+
+	public static void main(String[] args) throws SQLException{
+		
+		Connection connection=null;
+		Statement statement=null;
+		ResultSet resultSet=null;
+		String databaseURL="jdbc:mysql://192.168.0.131:3306/codebegun_3";
+		String userName="root";
+		String password="root";
+		String query="select * from codebegun_3.studentone";
+		
+		try {
+			connection=DriverManager.getConnection(databaseURL,userName,password);
+			statement=connection.createStatement();
+			resultSet=statement.executeQuery(query);
+			
+			while(resultSet.next()) {
+				System.out.println(resultSet.getString("userType"));
+				System.out.println(resultSet.getString("activestatus"));
+				System.out.println(resultSet.getString("createdDate"));
+				System.out.println(resultSet.getString("updatedDate"));
+				System.out.println(resultSet.getString("createduser"));
+				System.out.println(resultSet.getString("updateduser"));
+				System.out.println("=====================");
+				}
+		}finally{
+			resultSet.close();
+			connection.close();
+			statement.close();
+			
+		}
+
+	}
+
+}

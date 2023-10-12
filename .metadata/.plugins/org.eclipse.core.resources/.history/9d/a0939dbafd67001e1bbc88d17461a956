@@ -1,0 +1,10 @@
+package jdbcPractice;
+
+public class JdbcConnectExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,47 @@
+package Test;
+
+import java.util.Scanner;
+
+public class Permutations {
+	
+	public static void main(String[] args) {
+		System.out.println("Tea");
+	String str="Tea";
+	System.out.println(str.substring(1)+str.substring(0,1));
+	System.out.println(str.substring(2)+str.substring(0,2));
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	}
+//		Scanner sc=new Scanner(System.in);
+//		System.out.println("Enter the value ::");
+//		int input=sc.nextInt();
+//
+//  static int a;
+//	static int b;
+//	static int temp;
+//
+//	public static void main(String[] args) {
+//		 
+//		Scanner sc=new Scanner(System.in);
+//		System.out.print("Enter the value of a ::");
+//		 int a=sc.nextInt();
+//		 
+//		 System.out.print("Enter the value of b ::");
+//		 int b=sc.nextInt();
+//		
+//         temp=a;
+//		 a=b;
+//		 b=temp;
+//		 
+//	    System.out.println("value of a ::"+  a);	
+//	    System.out.println("value of b ::"+  b);
+	   

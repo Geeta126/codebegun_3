@@ -1,0 +1,17 @@
+package Test;
+
+import java.util.Scanner;
+
+public class FibonacciSeries {
+	int input;
+	static int num1=0;
+    static int num2=1;
+    static int num3;	
+
+	public static void main(String[] args) {
+		
+      Scanner sc=new Scanner(System.in);
+      System.out.println(num1+" "+num2+" ");
+	}
+
+}
